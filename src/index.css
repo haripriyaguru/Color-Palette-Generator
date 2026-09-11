@@ -1546,6 +1546,7 @@ button:focus-visible {
   background: transparent;
   font-size: 0.65rem;
   cursor: pointer;
+  color: inherit;
 }
 
 .theme-mode-switch button.active {
@@ -1920,6 +1921,7 @@ button:focus-visible {
   font-size: 0.7rem;
   font-weight: 700;
   cursor: pointer;
+  color: inherit;
 }
 
 .preview-switcher button.active {
@@ -2765,8 +2767,6 @@ button:focus-visible {
   font-size: 14px;
   line-height: 1.7;
 }
-
-.how-it-works-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
